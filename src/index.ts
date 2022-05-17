@@ -1,9 +1,9 @@
 let nombre: string;
 let nota1, nota2, nota3, notaFinal: number;
-let nota1 = 0;
-let nota2 = 0;
-let nota3 = 0;
-let notaFinal = 0;
+nota1 = 0;
+nota2 = 0;
+nota3 = 0;
+notaFinal = 0;
 
 while (nombre !== "") {
   nombre = prompt("Ingrese Nombre del Alumno");
@@ -27,7 +27,6 @@ while (nombre !== "") {
     nota3 = nota3 * 0.4;
   } else {
     console.log("error");
-
     break;
   }
   notaFinal = nota1 + nota2 + nota3;
